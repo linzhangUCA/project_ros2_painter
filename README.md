@@ -1,9 +1,11 @@
 # Project - ROS2 Managed Robot
 
-This is the final project in Robotics 1 class. In this project, we will control the simulated turtle to write **UCA** on the simulation canvas. In the mean time, your hexa robot is expected to draw same letters on a white board. All the tasks will be managed by ROS2, so get your selfves prepared for:
-- 
+This is the final project in Robotics 1 class. In this project, we will control the simulated turtle to write **UCA** on the simulation canvas. In the mean time, your Hexa robot is expected to write same letters on a white board. All the tasks will be managed by ROS2, so get your selves prepared for:
 
 ## Workflow
+1. Launch `turtlesim_node`.
+2. Launch a Hexa robot driving node.
+3. Listen to `cmd_vel` topic, drive turtle and Hexa robot at the same time.
 
 ## Requirements and Metrics
 
