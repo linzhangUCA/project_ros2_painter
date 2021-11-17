@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'turtle_driver'
+package_name = 'turtle_painter'
 
 setup(
     name=package_name,
@@ -13,14 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='robotics2',
-    maintainer_email='todo@todo.todo',
+    maintainer='linzhank',
+    maintainer_email='linzhank@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_listener = turtle_driver.turtle_listener:main'
+            'paint_uca = turtle_painter.paint_uca:main'
         ],
     },
 )

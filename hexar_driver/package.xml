@@ -4,7 +4,7 @@
   <name>hexar_driver</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="todo@todo.todo">robotics2</maintainer>
+  <maintainer email="linzhank@gmail.com">linzhank</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>

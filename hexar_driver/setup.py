@@ -13,14 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='robotics2',
-    maintainer_email='todo@todo.todo',
+    maintainer='linzhank',
+    maintainer_email='linzhank@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hexar_listener = hexar_driver.hexar_listener:main'
+            'bringup_hexar = hexar_driver.bringup_hexar:main'
         ],
     },
 )
