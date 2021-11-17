@@ -12,7 +12,9 @@ simulated turtle. All the tasks will be managed by ROS2.
 paint letters: **UCA** in the simulation. The Hexa robot will be driven to at 
 the same time.
 5. In case of no encoders are available, the simulated robot is expected to 
-be controlled back to the original position using P(ID) control.
+be controlled back to the original position using P(ID) control. See 
+following picture for an example.  
+![turtlesim_example](https://github.com/linzhangUCA/project_ros2_painter/blob/main/turtlesim_example.png)
 
 ## Requirements 
 Following materials are required to complete this project.
