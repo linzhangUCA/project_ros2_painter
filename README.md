@@ -2,7 +2,13 @@
 This is the final project in Robotics 1 class. In this project, we will control
 the simulated turtle to write **UCA** on the simulation canvas. In the mean 
 time, your Hexa robot will be driven by the same command that drives the 
-simulated turtle. All the tasks will be managed by ROS2.
+simulated turtle. All the tasks will be managed by ROS2. You need to install 
+[Ubuntu Server 20.04](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) 
+and [ROS2 Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html) 
+on your Raspberry Pi. You'll also need to configure the GPIO pins and SPI 
+communications under Ubuntu Server. Please refer this 
+[guide](https://github.com/linzhangUCA/robotics1-2021/wiki/Install-Ubuntu-Server-20.04-and-GPIO-Configuration)
+to do so.
 
 ## Workflow
 1. Launch `turtlesim_node`.
